@@ -33,8 +33,8 @@ const projects = [
     category: "Brand Commercial",
     duration: "0:15",
     color: "from-amber-200 to-orange-300",
-    type: "local",
-    videoId: "/paroda.mp4", // ← replace with your YouTube video ID
+    type: "instagram",
+    videoId: "DVJUavcExXL", // ← replace with your YouTube video ID
     thumbnail: null,
   },
   {
