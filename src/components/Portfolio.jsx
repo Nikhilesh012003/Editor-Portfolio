@@ -97,13 +97,13 @@ function VideoEmbed({ project }) {
           Instagram Reels cannot be embedded. Click below to watch.
         </p>
         
-          href={`https://www.instagram.com/reel/${project.videoId}/`}
+         <a href={`https://www.instagram.com/reel/${project.videoId}/`}
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center gap-2 bg-gradient-to-r from-pink-500 to-rose-500 text-white font-semibold px-6 py-3 rounded-full hover:shadow-lg transition-all"
         >
           <ExternalLink size={16} />
-          Watch on Instagram
+          <span>Watch on Instagram</span>
         </a>
       </div>
     );
