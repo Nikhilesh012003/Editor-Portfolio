@@ -128,28 +128,28 @@ function PlatformBadge({ type }) {
 //       />
 //     );
 //   }
-//   if (project.type === "instagram") {
-//     return (
-//       <div className="w-full h-full flex flex-col items-center justify-center bg-linear-to-br from-pink-50 to-rose-50 rounded-2xl p-8 text-center">
-//         <Instagram size={48} className="text-pink-500 mb-4" />
-//         <p className="font-semibold text-stone-700 mb-2">{project.title}</p>
-//         <p className="text-stone-500 text-sm mb-6">
-//           Instagram Reels can't be embedded directly.
-//           <br />
-//           Click below to watch on Instagram.
-//         </p>
-//         <a
-//           href={`https://www.instagram.com/reel/${project.videoId}/`}
-//           target="_blank"
-//           rel="noopener noreferrer"
-//           className="inline-flex items-center gap-2 bg-linear-to-r from-pink-500 to-rose-500 text-white font-semibold px-6 py-3 rounded-full hover:shadow-lg transition-all"
-//         >
-//           <ExternalLink size={16} />
-//           Watch on Instagram
-//         </a>
-//       </div>
-//     );
-//   }
+  if (project.type === "instagram") {
+    return (
+      <div className="w-full h-full flex flex-col items-center justify-center bg-linear-to-br from-pink-50 to-rose-50 rounded-2xl p-8 text-center">
+        <Instagram size={48} className="text-pink-500 mb-4" />
+        <p className="font-semibold text-stone-700 mb-2">{project.title}</p>
+        <p className="text-stone-500 text-sm mb-6">
+          Instagram Reels can't be embedded directly.
+          <br />
+          Click below to watch on Instagram.
+        </p>
+        <a
+          href={`https://www.instagram.com/reel/${project.videoId}/`}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center gap-2 bg-linear-to-r from-pink-500 to-rose-500 text-white font-semibold px-6 py-3 rounded-full hover:shadow-lg transition-all"
+        >
+          <ExternalLink size={16} />
+          Watch on Instagram
+        </a>
+      </div>
+    );
+  }
 //   if (project.type === "local") {
 //     return (
 //       <video
