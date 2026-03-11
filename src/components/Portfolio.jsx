@@ -105,7 +105,7 @@ function PlatformBadge({ type }) {
 }
 
 // // Video embed inside modal
-// function VideoEmbed({ project }) {
+function VideoEmbed({ project }) {
 //   if (project.type === "youtube") {
 //     return (
 //       <iframe
