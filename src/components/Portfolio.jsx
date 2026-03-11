@@ -115,7 +115,7 @@ function VideoEmbed({ project }) {
         <Instagram size={48} className="text-pink-500 mb-4" />
         <p className="font-semibold text-stone-700 mb-2">{project.title}</p>
         <p className="text-stone-500 text-sm mb-6">
-          Instagram Reels can't be embedded directly.<br />
+          Instagram Reels cannot be embedded directly.
           Click below to watch on Instagram.
         </p>
         
